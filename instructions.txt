@@ -1,0 +1,32 @@
+INSTRUCTIONS FOR USING THE TRADING BOT MODULES
+
+1. Setup:
+   - Ensure Python 3.8+ is installed.
+   - Install dependencies:
+     pip install -r requirements.txt
+
+2. Running a backtest:
+   - Run the file:
+     python run_backtest.py
+   - Enter a valid stock ticker when prompted (e.g., MSFT, NVDA, PG).
+
+3. Running a daily paper trade:
+   - Run the file:
+     python run_paper_trade.py
+   - Enter a valid stock ticker when prompted.
+   - The bot will fetch the latest data and place a simulated trade if conditions match.
+
+4. Configuration:
+   - Edit your API keys inside config.py:
+     ALPACA_API_KEY = "YOUR_ALPACA_API_KEY"
+     ALPACA_SECRET_KEY = "YOUR_ALPACA_SECRET_KEY"
+     ALPHA_VANTAGE_API_KEY = "YOUR_ALPHA_VANTAGE_KEY"
+     FMP_API_KEY = "YOUR_FMP_API_KEY"
+
+5. Modules Overview:
+   - config.py: API keys and constants.
+   - model.py: Transformer model and positional encoding.
+   - data_loader.py: Fetch and process data.
+   - trading_bot.py: Main bot class for training, forecasting, and trading.
+   - run_backtest.py: Script to run backtest.
+   - run_paper_trade.py: Script to run paper trading.

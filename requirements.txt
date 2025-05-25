@@ -1,0 +1,10 @@
+pandas
+numpy
+torch
+matplotlib
+scikit-learn
+ta
+nltk
+pykalman
+alpaca-trade-api
+requests
