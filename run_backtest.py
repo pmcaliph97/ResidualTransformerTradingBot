@@ -1,6 +1,3 @@
-# run_backtest.py
-# Script to backtest a stock based on user input
-
 from trading_bot import ResidualTransformerBot
 
 def main():
