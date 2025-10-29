@@ -38,7 +38,5 @@ Update `config.py` with your API keys:
 - ALPHA_VANTAGE_API_KEY = "YOUR_ALPHA_VANTAGE_API_KEY"
 - FMP_API_KEY = "YOUR_FMP_API_KEY"
 
-## Sample Output
-![NVDA Backtest result](NVDA.png)
 
 
