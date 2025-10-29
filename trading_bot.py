@@ -1,6 +1,3 @@
-# trading_bot.py
-# Main Trading Bot class with backtest engine
-
 import torch
 import numpy as np
 import pandas as pd
@@ -16,8 +13,6 @@ from data_loader import fetch_data
 import alpaca_trade_api as tradeapi
 
 class ResidualTransformerBot:
-    """Trading bot that uses Transformer model predictions and Kalman-smoothed prices."""
-
     def __init__(self, stock_symbol):
         self.stock_symbol = stock_symbol.upper()
         self.start_date = (pd.Timestamp.today() - pd.DateOffset(years=4)).date().isoformat()
