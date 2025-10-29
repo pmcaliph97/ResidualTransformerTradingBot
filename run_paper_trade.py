@@ -1,6 +1,3 @@
-# run_paper_trade.py
-# Script to perform a paper trade on a stock based on user input
-
 from trading_bot import ResidualTransformerBot
 import alpaca_trade_api as tradeapi
 from config import ALPACA_API_KEY, ALPACA_SECRET_KEY, BASE_URL
